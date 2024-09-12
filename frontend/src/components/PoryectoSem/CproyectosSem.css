@@ -1,0 +1,38 @@
+.carddddd{
+    max-width: 8000px !important;
+    width: 777px;
+    margin-right: -300px;
+}
+.alert3{
+    width: 155% !important;
+    margin-left: 30% !important;
+    margin-bottom: 5px !important;
+}
+
+@media (max-width: 768px) {
+    .carddddd {
+        margin: 10px;
+        width: 42vh !important;
+    }
+
+    .alert3{
+        width: 45% !important;
+        margin-left: 5% !important;
+        margin-bottom: 5px !important;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+        width: 20px !important;
+    }
+    .form-control {
+        width: 100% !important;
+    }
+
+    .Buttonn {
+        width: 100%;
+    }
+    .form-select {
+        width: 319px !important;
+    }
+}

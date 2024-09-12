@@ -1,0 +1,26 @@
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: var(--bs-list-group-color);
+    text-decoration: none;
+    width: 400px;
+    margin: 15px;
+    margin-right: 80px !important;
+    
+    background-color: var(--bs-list-group-bg);
+    border: solid 2px #39A900;
+    border-top: solid 2px #39A900;
+}
+
+.list-item {
+    border-top: 2px solid #39A900; /* Puedes ajustar el color y el grosor del borde según tus preferencias */
+  }
+
+  @media screen and (max-width: 768px) {
+    .card {
+        width: 400px !important;
+    }
+  }
+  
+

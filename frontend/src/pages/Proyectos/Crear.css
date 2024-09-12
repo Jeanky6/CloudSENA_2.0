@@ -1,0 +1,43 @@
+body {
+
+    display: block !important;
+      /* fallback for old browsers */
+      background: #fff !important;
+    
+      /* Chrome 10-25, Safari 5.1-6 */
+      /* background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+     */
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      /* background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1)) */
+    }
+
+    
+  
+  .Buttonn{
+      background: #39A900;
+      border-color: #39A900;
+      transition: #ffff;
+      margin-bottom: 15px;
+      
+      
+  }
+  
+  
+  img{
+    height: 200px;
+    width: 300px;
+    margin-top: -50px;
+  }
+  
+  .btn {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0d6efd;
+    --bs-btn-border-color: #6CAF45;
+    --bs-btn-hover-color: rgb(0,0,0);;
+    /* --bs-btn-hover-bg: #fff; */
+    --bs-btn-hover-border-color: #6CAF45;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: rgb(0,0,0);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: rgb(0,0,0);
+  }

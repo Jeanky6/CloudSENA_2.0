@@ -1,0 +1,60 @@
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: var(--bs-list-group-color);
+    text-decoration: none;
+    width: 400px;
+    margin: 15px;
+    margin-right: 80px !important;
+    
+    background-color: var(--bs-list-group-bg);
+    border: solid 2px #39A900;
+    border-top: solid 2px #39A900;
+}
+
+.list-item {
+    border-top: 2px solid #39A900; /* Puedes ajustar el color y el grosor del borde según tus preferencias */
+  }
+  
+.lemhXD textarea{
+    border: 1px solid #39A900;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 4px 10px;
+    min-height: 40px;
+    width: 100%;
+    transition: border-color 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
+    font-size: 14px;
+
+
+
+}
+
+.lemhXD input:not([type="checkbox"]):not([type="radio"]), .lemhXD textarea {
+    border: 1px solid #39A900 !important;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: none;
+    padding: 4px 10px;
+    min-height: 40px;
+    margin-bottom: 10px;
+    width: 30% !important;
+    transition: border-color 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
+    font-size: 14px;
+}
+.lemhXD .icon {
+    position: absolute;
+    height: 100%;
+    width: 30px;
+    top: 0px;
+    left: 455px !important;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: -5px !important;
+    color: #39A900 !important;
+}
